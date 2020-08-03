@@ -49,3 +49,8 @@ clone the repo
 npm i
 
 Parts API - http://localhost:8081/api/parts
+
+Create deployable web application for production (it creates dist folder) - npm run build
+Create deployable web application for staging - npm run build -- --mode=staging
+
+Inspect built-in Webpack config - vue inspect --mode=production
